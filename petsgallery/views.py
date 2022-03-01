@@ -68,8 +68,6 @@ def ArticleDetailsview(request,pk):
     object = listtablemodel.objects.get(pk=pk)
     return render(request, 'ArticleDetails.html',{'object':object})
 
-class ArticleDeletionview(TemplateView):
-    template_name = 'ArticleDeletion.html'
 
 def deletelistview(request):
     username_data = request.user.id
