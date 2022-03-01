@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>トップ</title>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% block csslink %}{% endblock %}
+</head>
+<body>
+	{% block contents %}{% endblock %}
+	<div id="n_3__5" class="________3___5" z-index='1'>
+		<svg class="Path" viewBox="0 0 1920 178">
+			<path id="Path" d="M 0 0 L 1920 0 L 1920 178 L 0 178 L 0 0 Z">
+			</path>
+		</svg>
+		<div id="Group_bm">
+			<svg class="n_5">
+				<rect id="n_5" rx="0" ry="0" x="0" y="0" width="805" height="93">
+				</rect>
+			</svg>		
+			{% if user.is_authenticated %}
+				<div  id="Text_bo_">
+					<ul class="ddmenu">
+						<li><a href="#">一覧</a>
+							<ul>
+								<li><a href="{% url 'petsgallery:List' %}">里親募集</a></li>
+								<li><a href="{% url 'petsgallery:photobuilding' %}">譲渡後</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div  id="Text_bm_">
+					<a href="{% url 'petsgallery:myself' %}">個人ページ</a>
+				</div>
+				<div id="Text_bq_">
+					<a href="{% url 'petsgallery:Logouthtml' %}">ログアウト</a>
+				</div>
+			{% else %}
+				<div  id="Text_bo">
+					<a href="{% url 'petsgallery:List' %}">一覧へ</a>
+				</div>
+				<div id="Text_bm">
+					<a href="{% url 'petsgallery:login' %}">ログイン</a>
+				</div>
+				<div id="Text_bq">
+					<a href="{% url 'petsgallery:signup' %}">新規登録</a>
+				</div>
+			{% endif %}			
+		</div>
+		<img id="logo_2" src="{% static 'img/logo.png' %}">
+	</div>
+</body>
+</html>

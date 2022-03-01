@@ -1,0 +1,33 @@
+#n_7 {
+	position: absolute;
+    width: 1448px;
+    height: 811px;
+    left: 390px;
+    top: 300px;
+    overflow: visible;
+}
+table{
+	border-collapse:separate;
+	border-spacing: 5px;
+	width: 100%;
+}
+  
+table th,table td{
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px 0;
+}
+  
+table th{
+	background-color: #c79852;
+	color: white;
+	border:solid 1px #927141;
+	font-size: 25px;
+}
+  
+table td{
+	background-color: #e4d4bc;
+	border:solid 1px #af9d85;
+	font-size: 20px;
+}
+

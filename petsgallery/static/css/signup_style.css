@@ -1,0 +1,335 @@
+.mediaViewInfo {
+	--web-view-name: 新規登録;
+	--web-view-id: Artboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#n_60 {
+	position: absolute;
+	width: 1022px;
+	height: 798.5px;
+	left: 483px;
+	top: 183.5px;
+	overflow: visible;
+}
+#n_58 {
+	position: absolute;
+	width: 880px;
+	height: 83px;
+	left: 80px;
+	top: 238.5px;
+	overflow: visible;
+}
+#n_13 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_13 {
+	position: absolute;
+	overflow: visible;
+	width: 880px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#Text {
+	left: 30px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#n_57 {
+	position: absolute;
+	width: 880px;
+	height: 83px;
+	left: 80px;
+	top: 341.5px;
+	overflow: visible;
+}
+#n_13_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_13_ {
+	position: absolute;
+	overflow: visible;
+	width: 880px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#Text_ {
+	left: 30px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#n_56 {
+	position: absolute;
+	width: 615px;
+	height: 83px;
+	left: 0px;
+	top: 600.5px;
+	overflow: visible;
+}
+#n_13_ba {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_13_ba {
+	position: absolute;
+	overflow: visible;
+	width: 615px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#Text_ba {
+	left: 30px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#n_59 {
+	position: absolute;
+	width: 292px;
+	height: 83px;
+	left: 294px;
+	top: 598.5px;
+	overflow: visible;
+}
+#n_14 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_14 {
+	position: absolute;
+	overflow: visible;
+	width: 292px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	cursor: pointer;
+}
+#Text_bb {
+	left: 100px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#n_55 {
+	position: absolute;
+	width: 880px;
+	height: 83px;
+	left: 0px;
+	top: 135.5px;
+	overflow: visible;
+}
+#n_13_bb {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_13_bb {
+	position: absolute;
+	overflow: visible;
+	width: 880px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#Text_bc {
+	left: 30px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 214px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#n_25 {
+	position: absolute;
+	width: 323px;
+	height: 83px;
+	left: 699px;
+	top: 680px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	cursor: pointer;
+}
+#n_34 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_34 {
+	position: absolute;
+	overflow: visible;
+	width: 323px;
+	height: 83px;
+	left: 0px;
+	top: 0px;
+}
+#Text_bf {
+	left: 46px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 232px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#Text_bg {
+	left: 294px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 79px;
+	color: rgba(0,0,0,1);
+}
+#n_3__2 {
+	position: absolute;
+	width: 1920px;
+	height: 178px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path {
+	fill: rgba(41,165,36,0.102);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 178px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n_80 {
+	width: 80px;
+	height: 83px;
+	left: 80px;
+	top: 382.5px;
+	overflow: visible;
+}
+#Text_bu {
+	left: 100px;
+	top: 476px;
+	position: absolute;
+	overflow: visible;
+	width: 232px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: red;
+}

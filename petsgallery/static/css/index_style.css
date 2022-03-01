@@ -1,0 +1,318 @@
+.mediaViewInfo {
+	--web-view-name: トップ;
+	--web-view-id: Artboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group {
+	position: absolute;
+	width: 1128px;
+	height: 701px;
+	left: 515px;
+	top: 291px;
+	overflow: visible;
+}
+#n_7 {
+	position: absolute;
+	width: 1128px;
+	height: 701px;
+	left: 0px;
+	top: 0px;
+}
+#n_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_6 {
+	position: absolute;
+	overflow: visible;
+	width: 1128px;
+	height: 701px;
+	left: 0px;
+	top: 0px;
+}
+#Text {
+	left: 27px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#n_8 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_8 {
+	position: absolute;
+	overflow: visible;
+	width: 1062px;
+	height: 516px;
+	left: 33px;
+	top: 81px;
+}
+#n_7_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_7_ {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	left: 79px;
+	top: 210px;
+}
+#n_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_9 {
+	position: absolute;
+	overflow: visible;
+	width: 529px;
+	height: 94px;
+	left: 79px;
+	top: 109px;
+}
+#n_10 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10 {
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	height: 375px;
+	left: 694px;
+	top: 95px;
+}
+#Text_ {
+	left: 110px;
+	top: 125px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+}
+#Text_ba {
+	left: 110px;
+	top: 220px;
+	position: absolute;
+	overflow: scroll;
+	height: 280px;
+	width: 450px;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#n_ {
+	left: 701px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 59px;
+	color: rgba(0,0,0,1);
+}
+#Text_bb {
+	left: 789px;
+	top: 617px;
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: __________.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+
+#logo_2 {
+	position: absolute;
+	width: 167px;
+	height: 173px;
+	left: 179px;
+	top: 0px;
+	overflow: visible;
+}
+
+#n_33 {
+	position: absolute;
+	width: 228px;
+	height: 387px;
+	left: 50px;
+	top: 312px;
+	overflow: visible;
+}
+#Rectangle {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle {
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+}
+#Text_bh {
+	left: 31.5px;
+	top: 30.5px;
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#n_43 {
+	position: absolute;
+	width: 95px;
+	height: 49px;
+	left: 50px;
+	top: 145px;
+	overflow: visible;
+}
+#n_44 {
+	position: absolute;
+	width: 95px;
+	height: 47px;
+	left: 50px;
+	top: 100px;
+	overflow: visible;
+}
+#n_45 {
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 90px;
+	top: 200px;
+	font-size: 20px;
+	overflow: visible;
+}
+#n_36 {
+	position: absolute;
+	width: 228px;
+	height: 387px;
+	left: 53px;
+	top: 291px;
+	overflow: visible;
+}
+#n_64 {
+	position: absolute;
+	width: 147px;
+	height: 47px;
+	left: 75px;
+	top: 100px;
+	overflow: visible;
+}
+#Text_cc {
+	left: 20px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	cursor: pointer;
+	text-align: left;
+	color: rgba(0,0,0,1);
+}
+#n_66 {
+	position: absolute;
+	width: 147px;
+	height: 43px;
+	left: 75px;
+	top: 170px;
+	overflow: visible;
+	font-size: 30px;
+}
+
+#Text_cj {
+	left: 28px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}

@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csslink %}
+<link rel="stylesheet" href="{% static 'css/ArticleDetails_style.css' %}">
+{% endblock %}
+{% block contents %}
+{% if user.is_authenticated %}
+	<div id="Group">
+		<div id="n_7">
+			<svg class="n_6">
+				<rect id="n_6" rx="0" ry="0" x="0" y="0" width="1658" height="756">
+				</rect>
+			</svg>
+			<svg class="n_8">
+				<rect id="n_8" rx="0" ry="0" x="0" y="0" width="1592" height="516">
+				</rect>
+			</svg>
+
+			<div class="n_10">
+				<img src="{{object.images1.url}}" width="300">
+			</div>
+			<div class="n_10_">
+				<img src="{{object.images2.url}}" width="300">
+			</div>
+			<div class="n_10_ba">
+				<img src="{{object.images3.url}}" width="300">
+			</div>
+			<div>
+				<svg class="n_9">
+					<rect id="n_9" rx="0" ry="0" x="0" y="0" width="529" height="94">
+					</rect>
+				</svg>
+				<div id="Text" class="card-title">投稿者:{{object.author}}</div>
+			</div>
+			<div>
+				<svg class="n_7_">
+					<rect id="n_7_" rx="0" ry="0" x="0" y="0" width="529" height="280">
+					</rect>
+				</svg>
+				<div></div> <textarea id="Text_" disabled>内容:{{object.content }}</textarea></div>
+			</div>
+			<div onclick="application.goBack()" id="Text_bd">
+				<a href="{% url 'petsgallery:List' %}" class="btn btn-primary">戻る</a>
+			</div>
+		</div>
+	</div>
+{% else %}
+	<div id="Text_bb">
+		<span>ログインしてください</span>
+	</div>
+	<div id="n_92">
+		<div id="Text_bc">
+			<a href="{% url 'petsgallery:signup' %}">新規登録</a>
+		</div>
+	</div>
+	<div id="n_91">
+		<div id="Text_be">
+			<a href="{% url 'petsgallery:login' %}">ログイン</a>
+		</div>
+	</div>
+{% endif %}			
+	{% endblock %}

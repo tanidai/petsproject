@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csslink %}
+<link rel="stylesheet" href="{% static 'css/myself_style.css' %}">
+{% endblock %}
+{% block contents %}
+	<div id="aaa">
+		<div id="Group_z">
+			<div id="n_23">
+				<svg class="n_23_">
+					<rect id="n_23_" rx="0" ry="0" x="0" y="0" width="500" height="100">
+					</rect>
+				</svg>
+			</div>
+			<div id="Text_">
+				<span>メールアドレス</span>
+			</div>
+		</div>
+		<div id="Group_">
+			<div id="n_23_ba">
+				<svg class="n_23_bb">
+					<rect id="n_23_bb" rx="0" ry="0" x="0" y="0" width="500" height="100">
+					</rect>
+				</svg>
+			</div>
+			<div id="Text_bb">
+				<span>パスワード</span>
+			</div>
+		</div>
+		<div id="Group_bc">
+			<div id="n_23_bd">
+				<svg class="n_23_be">
+					<rect id="n_23_be" rx="0" ry="0" x="0" y="0" width="500" height="100">
+					</rect>
+				</svg>
+			</div>
+			<div id="Text_bh">
+				<span>ニックネーム</span>
+			</div>
+		</div>
+		<div id="SNS_ca">
+			<svg class="n_33">
+				<rect id="n_33" rx="0" ry="0" x="0" y="0" width="500" height="100">
+				</rect>
+			</svg>
+			<div id="Twitter">
+				<span>Twitter</span>
+			</div>
+		</div>
+		<div id="SNS_cf">
+			<svg class="n_33_cg">
+				<rect id="n_33_cg" rx="0" ry="0" x="0" y="0" width="500" height="100">
+				</rect>
+			</svg>
+			<div id="Instagram">
+				<span>Instagram</span>
+			</div>
+		</div>
+		<div id="SNS_ck">
+			<svg class="n_33_cl">
+				<rect id="n_33_cl" rx="0" ry="0" x="0" y="0" width="500" height="100">
+				</rect>
+			</svg>
+			<div id="Facebook">
+				<span>Facebook</span>
+			</div>
+		</div>
+		<svg class="n_24">
+			<rect id="n_24" rx="0" ry="0" x="0" y="0" width="1000" height="75">
+			</rect>
+		</svg>
+		<div id="botann">
+			<span>変更/連携</span>
+		</div>
+	</div>
+	<div id="Group_bn">
+		<div id="Text_bu">
+			<span>記事</span>
+		</div>
+		<svg class="Rectangle">
+			<rect id="Rectangle" rx="0" ry="0" x="0" y="0" width="300" height="80"></rect>
+		</svg>
+		<div id="n_60">
+			<a href="{% url 'petsgallery:ArticleProduction' %}">作成</a>
+		</div>
+		<div id="n_61">
+			<a href="{% url 'petsgallery:deletelist' %}">削除</a>
+		</div>
+	</div>
+</div>
+{% endblock %}

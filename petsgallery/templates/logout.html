@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csslink %}
+<link rel="stylesheet" href="{% static 'css/logout_style.css' %}">
+{% endblock %}
+{% block contents %}
+	<div id="Text">
+		<span>ログアウト</span>
+	</div>
+	<div id="Text_z">
+		<a href="{% url 'petsgallery:goback' %}">・ログアウト</a>
+	</div>
+	<div id='Text_za'>
+		<a href="{% url 'petsgallery:index' %}">・戻る</a>
+	</div>
+{% endblock %}

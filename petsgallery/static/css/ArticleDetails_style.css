@@ -1,0 +1,415 @@
+.mediaViewInfo {
+	--web-view-name: 記事詳細;
+	--web-view-id: Artboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group {
+	position: absolute;
+	width: 1658px;
+	height: 756px;
+	left: 115px;
+	top: 244px;
+	overflow: visible;
+}
+#n_7 {
+	position: absolute;
+	width: 1658px;
+	height: 756px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#n_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_6 {
+	position: absolute;
+	overflow: visible;
+	width: 1658px;
+	height: 756px;
+	left: 0px;
+	top: 0px;
+}
+#n_8 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_8 {
+	position: absolute;
+	overflow: visible;
+	width: 1592px;
+	height: 516px;
+	left: 33px;
+	top: 47px;
+}
+#n_7_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_7_ {
+	position: absolute;
+	overflow: visible;
+	width: 529px;
+	height:100px;
+	left: 75px;
+	top: 216px;
+}
+#n_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_9 {
+	position: absolute;
+	overflow: visible;
+	width: 529px;
+	height: 94px;
+	left: 75px;
+	top: 85px;
+}
+#n_10 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10 {
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	height: 375px;
+	left: 654px;
+	top: 110px;
+}
+#n_10_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10_ {
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	height: 375px;
+	left: 978px;
+	top: 110px;
+}
+#n_10_ba {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_10_ba {
+	position: absolute;
+	overflow: visible;
+	width: 314px;
+	height: 375px;
+	left: 1302px;
+	top: 110px;
+}
+#Text {
+	left: 152px;
+	top: 93px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Text_ {
+	left: 85px;
+	top: 230px;
+	position: absolute;
+	overflow: scroll;
+	width: 480px;
+	height: 260px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#n_ {
+	left: 750px;
+	top: 216px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 68px;
+	color: rgba(0,0,0,1);
+}
+#n__bb {
+	left: 1072px;
+	top: 216px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 68px;
+	color: rgba(0,0,0,1);
+}
+#n__bc {
+	left: 1396px;
+	top: 216px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 68px;
+	color: rgba(0,0,0,1);
+}
+#Text_bd {
+	left: 1313px;
+	top: 657px;
+	position: absolute;
+	overflow: visible;
+	width: 264px;
+	white-space: nowrap;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#n_17_ {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_17_ {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: __________.html;
+	cursor: pointer;
+}
+#n__ {
+	left: 131px;
+	top: 13.157px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#n_89_ba {
+	position: absolute;
+	width: 375px;
+	height: 131.157px;
+	left: 395px;
+	top: 0px;
+	overflow: visible;
+}
+#n_17_bb {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_17_bb {
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+}
+#n___bc {
+	left: 131px;
+	top: 13.157px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#Text_bb {
+	left: 484.5px;
+	top: 311.5px;
+	position: absolute;
+	overflow: visible;
+	width: 896px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Academy Engraved LET;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 92px;
+	color: rgba(0,0,0,1);
+}
+#n_92 {
+	position: absolute;
+	width: 561px;
+	height: 108px;
+	left: 932px;
+	top: 733px;
+	overflow: visible;
+}
+#n_51 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_51 {
+	position: absolute;
+	overflow: visible;
+	width: 561px;
+	height: 108px;
+	left: 0px;
+	top: 0px;
+}
+#Text_bc {
+	left: 208.5px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Academy Engraved LET;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#n_91 {
+	position: absolute;
+	width: 561px;
+	height: 108px;
+	left: 278px;
+	top: 733px;
+	overflow: visible;
+}
+#n_52 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_52 {
+	position: absolute;
+	overflow: visible;
+	width: 561px;
+	height: 108px;
+	left: 0px;
+	top: 0px;
+}
+#Text_be {
+	transform: translate(-278px, -887px) matrix(1,0,0,1,485,923) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Academy Engraved LET;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(0,0,0,1);
+}

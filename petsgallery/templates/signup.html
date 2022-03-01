@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csslink %}
+<link rel="stylesheet" href="{% static 'css/signup_style.css' %}">
+{% endblock %}
+{% block contents %}
+<div id="n_60">
+	<div id="Text_bg">
+			<span>新規登録</span>
+	</div>
+	<form class="form-signup" method="POST">{% csrf_token %}
+		<div id="Text_bu">
+			{% if error %}
+				{{ error }}
+			{% endif %}
+		</div>
+		<div id="n_58">
+			<div id="Text">
+				<label for="inputEmail" class="sr-only">ニックネーム</label>
+				<input type="text" id="inputEmail" class="form-control" placeholder="name" name="Username_data" required autofocus>
+			</div>
+		</div>
+		<div id="n_57">
+			<div id="Text_">
+				<label for="inputPassword" class="sr-only">パスワード</label>
+				<input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password_data" required>
+			</div>
+		</div>
+
+		<div id="n_59">
+			<div id="Text_bb">
+			<button class="btn btn-lg btn-primary btn-block" type="submit">新規登録</button>			
+			</div>
+		</div>
+			<div  id="n_25">
+				<div id="Text_bf">
+				<a href="{% url 'petsgallery:index' %}">キャンセル</a>
+				</div>
+			</div>
+		</div>
+	</form>
+
+
+{% endblock %}

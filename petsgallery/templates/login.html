@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csslink %}
+<link rel="stylesheet" href="{% static 'css/login_style.css' %}">
+{% endblock %}
+{% block contents %}
+	<div id="n_31">
+		<div id="Text_bc">
+			<span>ログイン</span>
+		</div>
+		<div class="continer">
+			<form class="form-login" method="POST">{% csrf_token %}
+				<div id="n_35">
+					<div id="Text_">
+						<label for="inputEmail" class="sr-only">ニックネーム</label>
+						<input type="text" id="inputEmail" class="form-control" placeholder="name" name="Username_data" required autofocus>
+					</div>
+				</div>
+				<div id="n_33">		
+					<div id="Text_bb">		
+						<label for="inputPassword" class="sr-only">パスワード</label>
+						<input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password_data" required>
+					</div>	
+				</div>
+				<div id="n_34">
+					<div id="Text_ba">
+						<button class="btn btn-lg btn-primary btn-block" type="submit">ログイン</button>
+					</div>
+				</div>	
+			</form>
+		</div>
+
+		<div id="n_32">
+			<div id="Text">
+				<a href="{% url 'petsgallery:signup' %}">新規登録</a>
+			</div>
+		</div>
+		<div id="n_25">
+			<div id="Text_bd">
+				<a href="{% url 'petsgallery:index' %}">キャンセル</a>
+			</div>
+		</div>
+	</div>
+{% endblock %}

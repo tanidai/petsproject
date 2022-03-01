@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block csslink %}
+<link rel="stylesheet" href="{% static 'css/detailliist_style.css' %}">
+{% endblock %}
+{% block contents %}
+	<div id="n_7">
+		 <table>
+			{% for item in object_list %}
+				<tr>	
+					<th>{{item.title}}</th>
+					<td>投稿者:{{item.author}}</td>
+					<td><img src="{{item.images1.url}}" width="300"></td>
+					<td><a href="{% url 'petsgallery:delete' item.pk %}" >削除</a></td>
+				</tr>
+			{% endfor %}
+		</table>
+	</div>
+{% endblock %}

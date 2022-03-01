@@ -1,0 +1,123 @@
+.mediaViewInfo {
+	--web-view-name: 検索一覧(写真館);
+	--web-view-id: Artboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#n_7 {
+    position: absolute;
+    width: 1448px;
+    height: 811px;
+    left: 390px;
+    top: 300px;
+    overflow: visible;
+}
+
+#n_33 {
+	position: absolute;
+	width: 228px;
+	height: 387px;
+	left: 50px;
+	top: 312px;
+	overflow: visible;
+}
+#Rectangle {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle {
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+}
+#Text_bh {
+	left: 31.5px;
+	top: 30.5px;
+	position: absolute;
+	overflow: visible;
+	width: 167px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#n_43 {
+	position: absolute;
+	width: 95px;
+	height: 49px;
+	left: 50px;
+	top: 145px;
+	overflow: visible;
+}
+#n_44 {
+	position: absolute;
+	width: 95px;
+	height: 47px;
+	left: 50px;
+	top: 100px;
+	overflow: visible;
+}
+#n_45 {
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 90px;
+	top: 200px;
+	font-size: 20px;
+	overflow: visible;
+}
+table{
+	border-collapse:separate;
+	border-spacing: 5px;
+	width: 100%;
+}
+  
+table th,table td{
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px 0;
+}
+  
+table th{
+	background-color: #c79852;
+	color: white;
+	border:solid 1px #927141;
+	font-size: 25px;
+}
+  
+table td{
+	background-color: #e4d4bc;
+	border:solid 1px #af9d85;
+	font-size: 20px;
+}

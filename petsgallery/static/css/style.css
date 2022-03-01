@@ -1,0 +1,214 @@
+.mediaViewInfo {
+	--web-view-name: トップ;
+	--web-view-id: Artboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+#n_3__5 {
+	position: absolute;
+	width: 1920px;
+	height: 178px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path {
+	fill: rgba(41,165,36,0.102);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 178px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_bm {
+	position: absolute;
+	width: 805px;
+	height: 93px;
+	left: 1115px;
+	top: 85px;
+	overflow: visible;
+}
+#n_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_5 {
+	position: absolute;
+	overflow: visible;
+	width: 805px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+}
+#Text_bo {
+	left: 60px;
+	top: 20px;
+	position: absolute;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: __________.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Text_bm {
+	left: 282.09px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ____.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Text_bq {
+	left: 541px;
+	top: 20px;
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ____.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Text_bo_ {
+	left: 75px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: __________.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Text_bm_ {
+	left: 230px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ____.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Text_bq_ {
+	left: 525px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: ____.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#logo_2 {
+	position: absolute;
+	width: 167px;
+	height: 173px;
+	left: 179px;
+	top: 0px;
+	overflow: visible;
+}
+ul.ddmenu {
+	margin: 0px;               /* メニューバー外側の余白(ゼロ) */
+}
+ul.ddmenu li {
+	list-style-type: none; 
+ }
+ul.ddmenu ul {
+	display: none;         /* ★5:非表示にする */
+ }
+ul.ddmenu ul {
+	display: none;       /* ★1:標準では非表示にする */
+}
+li:hover ul {
+	display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
+a {
+	color: rgba(0,0,0,1); 
+	text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
+}

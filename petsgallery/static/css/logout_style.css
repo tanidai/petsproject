@@ -1,0 +1,69 @@
+.mediaViewInfo {
+	--web-view-name: ログアウト;
+	--web-view-id: Artboard;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+#Text {
+	left: 745.5px;
+	top: 332.5px;
+	position: absolute;
+	overflow: visible;
+	width: 430px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 93px;
+	color: rgba(0,0,0,1);
+}
+#Text_z {
+	left: 619px;
+	top: 689px;
+	position: absolute;
+	overflow: visible;
+	width: 255px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(0,0,0,1);
+}
+#Text_za {
+	left: 1120px;
+	top: 689px;
+	position: absolute;
+	overflow: visible;
+	width: 255px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(0,0,0,1);
+}
