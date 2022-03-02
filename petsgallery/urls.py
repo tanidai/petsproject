@@ -14,7 +14,6 @@ urlpatterns = [
     path('photobuilding/',photobuildingview,name='photobuilding'),
     path('ArticleProduction/',CreateClass.as_view(),name='ArticleProduction'),
     path('ArticleDetails/<int:pk>/', ArticleDetailsview,name='ArticleDetails'),
-    path('ArticleArticleDeletion/', views.ArticleDeletionview.as_view(),name='ArticleDeletion'),
     path('deletelist/',deletelistview,name='deletelist'),
     path('delete/<int:pk>',deleteview,name='delete'),
     path('choice/',choiceview,name='choice'),
